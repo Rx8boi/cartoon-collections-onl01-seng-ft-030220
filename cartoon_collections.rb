@@ -21,8 +21,7 @@ def find_the_cheese(snacks)
     if word = cheese_types.any?
       return cheese_types.first
     else
-      cheese_types.unshift(nil)
-      return cheese_types.first
+      break
     end
 end
 end
