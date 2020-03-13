@@ -15,13 +15,11 @@ end
 end
 end
 
-def find_the_cheese(snacks)
+def find_the_cheese(array)
+  i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.find(snacks) do |word| word
-    if word = cheese_types.any?
-      return cheese_types.first
-    else
-      break
-    end
-end
+  while i < cheese_types.length
+    return cheese_types[i] if array.include?(cheese_types[i])
+    i += 1
+  end
 end
