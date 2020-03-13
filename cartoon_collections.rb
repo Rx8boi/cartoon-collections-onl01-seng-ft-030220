@@ -21,7 +21,7 @@ def find_the_cheese(snacks)
     if word = cheese_types.any?
       TRUE
     else
-      FALSE
+      nil
     end
 end
 end
