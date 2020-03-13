@@ -19,9 +19,7 @@ def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.find(snacks) do |word| word
     if word = cheese_types.any?
-      TRUE
-    else
-      nil
+      return cheese_types
     end
 end
 end
