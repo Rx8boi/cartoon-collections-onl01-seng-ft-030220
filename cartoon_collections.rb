@@ -16,7 +16,7 @@ end
 end
 
 def find_the_cheese(snacks)
-  snacks.detect? do |word|
+  snacks.detect do |word|
 end
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
