@@ -20,6 +20,8 @@ def find_the_cheese(snacks)
   snacks.find(snacks) do |word| word
     if word = cheese_types.any?
       return cheese_types.first
+    else
+      return
     end
 end
 end
